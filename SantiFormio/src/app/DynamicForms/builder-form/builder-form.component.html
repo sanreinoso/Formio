@@ -1,0 +1,17 @@
+<head><title>BUILDER FORM - Santi Formularios</title></head>
+
+<section id="infinite" class="text-white tm-font-big tm-parallax">
+    <app-navbar></app-navbar>
+    <div class="tm-hero-text-container" >
+        <div class="tm-hero-text-container-inner" style="margin-top: 10%;">
+            <h2 class="text-center tm-hero-title">RENDERIZAR FORMULARIOS</h2>
+            <div class="tm-hero ml-4 mr-4 mt-5">
+                <form-builder [form]="form" (change)="onChange($event)" ></form-builder>
+                <div class="well jsonviewer" style="display: none;">
+                    <pre id="json"><code class="language-json" #json></code></pre>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

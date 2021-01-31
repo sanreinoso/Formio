@@ -1,0 +1,15 @@
+
+<head><title>RENDER FORM - Santi Formularios</title></head>
+<section id="infinite" class="text-white tm-font-big tm-parallax">
+    <app-navbar></app-navbar>
+    <div class="tm-hero-text-container">
+        <div class="tm-hero-text-container-inner">
+            <h2 class="text-center tm-hero-title">RENDERIZAR FORMULARIOS</h2>
+            <div class="tm-hero" style="color: black;">
+                <h1 class="text-white text-center">EXAMPLE FORM</h1>
+                <!--div id='formio'></div-->
+                <formio [form]="myForm" (submit)="onSubmit($event)" [submission]='data'></formio>
+            </div>
+        </div>
+    </div>
+</section>
